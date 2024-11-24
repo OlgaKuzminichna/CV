@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olga Litvinova | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo2.png" type="image/x-icon">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>    
+<body>
+    <header>
+        <nav id="navigation">
+            <div class="site-header">
+                <div class="site-logo">
+                    <img src="./images/logo.png" alt="Olga Litvinova">
+                </div>
+                <ul class="link-list">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <!-- <li><a href="#resume">RESUME</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <nav id="responsive-nav">
+            <div class="site-header">
+                <div class="site-logo">
+                    <img src="./images/logo.png" alt="Olga Litvinova">
+                </div>
+                <div class="hamburger-menu">
+                    <div class="icon-toggle" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="dropdown-links">
+                        <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+                        <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                        <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+                        <!-- <li><a href="#resume" onclick="toggleMenu()">RESUME</a></li> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="intro-left">
+                <p class="intro-text2">I am</p>
+                <h1 class="primary-title">Olga Litvinova</h1>
+                <p class="intro-role">Data Analyst </p>
+                <div class="button-group">
+                    <button class="main-btn" onclick="location.href='./index.html#projects'">
+                        MY PROJECTS
+                    </button>
+                </div>
+            </div>
+            <div class="intro-right">
+                <img src="./images/Litvinova.jpg" alt="Olga Litvinova Picture" />
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="secondary-title">About me</h1>
+            <div class="description-container">
+                <p>
+                    When I think about the greatest inspiration in my career as a Data Analyst, I would attribute it to a class I took in "Data Visualization and Statistical Modeling". 
+                    Learning about statistical tools and visualisation techniques opened my eyes to the fact that Data Analyst is not just about analyzing numbers but about bringing clarity and value through data storytelling—ultimately influencing outcomes and driving change.
+                    Since then, I have been dedicated to furthering my skills in ML, statistical analysis, and visualization to make an impact across various industries.
+                </p>
+                <p>
+                    <br>
+                    By leveraging data-driven insights, I aim to simplify everyday workflows, enhance productivity, and find smarter ways to tackle routine challenges. From automating manual processes to optimizing decision-making, my focus lies in harnessing the power of data to make a meaningful impact on how we work and interact with technology in our daily lives.
+                </p>
+
+                <P>
+                    <br>
+                    Whether it's improving organizational efficiency, optimizing resource allocation, or simplifying complex tasks, I see data as a key tool in addressing these challenges. My skills in Data Science, Data Mining, and Predictive Analytics allow me to explore where and how to apply data solutions that are practical and impactful. The opportunity to solve these challenges using data is something that excites and motivates me every day.
+                </P>
+                <p>
+                    <br>
+                    I also thrive in environments where I can collaborate closely with diverse teams, while also being comfortable working independently to tackle complex analytical problems. My passion lies in applying my knowledge and skills to contribute meaningfully to projects, providing insights that drive efficiency and innovation. I bring a detail-oriented and curious mindset to all my work, always striving to contribute to the broader field of Data Science and its real-world applications.
+                </p>
+                
+            </div>
+
+            <div class="timeline">
+                <svg width="1000" height="100">
+                    <!-- Line -->
+                    <line x1="0" y1="50" x2="1000" y2="50" style="stroke:black; stroke-width:1.5"></line>
+                    <!-- 2020 Event -->
+                    <circle cx="50" cy="50" r="10" stroke="#8fb9a1" stroke-width="6" fill="rgb(87, 174, 114)"></circle>
+                    <text text-anchor="middle" x="50" y="80" fill="black">2020</text>
+                    <text style="font-size:13" text-anchor="middle" x="180" y="30" fill="black">Commercial Control Analyst</text>
+                    <text style="font-size:13; font-style: italic" text-anchor="middle" x="180" y="80" fill="#888888">Schneider Electric</text>
+
+                    
+                    <circle cx="300" cy="50" r="10" stroke="#8fb9a1" stroke-width="6" fill="rgb(87, 174, 114)"></circle>
+                    <text text-anchor="middle" x="300" y="80" fill="black">2022</text>
+                    <text style="font-size:13" text-anchor="middle" x="430" y="30" fill="black">Data Transformation Manager</text>
+                    <text style="font-size:13; font-style: italic" text-anchor="middle" x="430" y="80" fill="#888888">Schneider Electric</text>
+                    
+                    <circle cx="550" cy="50" r="10" stroke="#8fb9a1" stroke-width="6" fill="rgb(87, 174, 114)"></circle>
+                    <text text-anchor="middle" x="550" y="80" fill="black">2023</text>
+                    <text style="font-size:13" text-anchor="middle" x="650" y="30" fill="black">Data Analyst</text>
+                    <text style="font-size:13; font-style: italic" text-anchor="middle" x="650" y="80" fill="#888888">RWE</text>
+
+                    <circle cx="750" cy="50" r="10" stroke="#8fb9a1" stroke-width="6" fill="rgb(87, 174, 114)"></circle>
+                    <text text-anchor="middle" x="750" y="80" fill="black">2024</text>
+                    <text style="font-size:13" text-anchor="middle" x="880" y="30" fill="black">Process Mining Analyst</text>
+                    <text style="font-size:13; font-style: italic" text-anchor="middle" x="880" y="80" fill="#888888">Siemens Healthineers</text>
+                </svg>
+            </div>
+        </section>
+
+
+        <section id="skills">
+            <h1 class="secondary-title">What I love to do</h1>
+            <div class="description-container">
+            
+            </div>
+            <div class="skill-article-group">
+                <article class="skill-card">
+                    <img src="./images/data-analysis.png" alt="Data Visualization Icon" class="icon"/>
+                    <div>
+                        <h3>Data Visualization</h3>
+                        <p>Presenting sales trends, customer segmentation, and operational KPIs through impactful visuals that help stakeholders understand numbers and make actionable business decisions. 
+                            <br> #Tableau #Power BI #Matplotlib
+                        </p>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <img src="./images/data-analytics.png" alt="Data Analytics Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analytics</h3>
+                        <p>Skilled at leveraging data analytics to uncover hidden patterns, using tools like R, pandas, and NumPy to highlight trends and patterns.</p>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <img src="./images/technical-writing.png" alt="Machine Learning Icon" class="icon"/>
+                    <div>
+                        <h3>Machine Learning</h3>
+                        <p>Translate intricate technical concepts into clear and concise documentation. From reports to comprehensive materials, I ensure your data projects are well-documented and readily accessible.</p>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <img src="./images/front-end-web-development.png" alt="Process Automation Icon" class="icon"/>
+                    <div>
+                        <h3>Process Automation</h3>
+                        <p>Craft intuitive web interfaces that deliver information in an accessible format. Design and build data-driven web solutions that seamlessly blend functionality and aesthetics.</p>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <img src="./images/front-end-web-development.png" alt="Excel and VBA Macros Icon" class="icon"/>
+                    <div>
+                        <h3>Excel and VBA Macros</h3>
+                        <p>Craft intuitive web interfaces that deliver information in an accessible format. Design and build data-driven web solutions that seamlessly blend functionality and aesthetics.</p>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <img src="./images/collaboration.png" alt="Databases Icon" class="icon"/>
+                    <div>
+                        <h3>Databases</h3>
+                        <p>Collaborate seamlessly with your team to integrate data solutions into your business processes. Whether it's short-term projects or ongoing data-driven initiatives, I'm here to support your success.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="projects">
+            <h1 class="secondary-title">Projects</h1>
+            <div class="project-group">
+                <div class="project-detail-card">
+                    <img src="./images/cyclistic.png" class="project-image"/>
+                    <h2 class="project-title">Cyclistic Bike-Share Analytics</h2>
+                    <p>A comprehensive analysis of Cyclistic Bike-Share program, featuring Exploratory Data Analysis (EDA), A/B Testing, SARIMA Time Series Forecasting, and interactive Tableau dashboards to uncover user behavior, trends, and marketing strategies for growth.</p> 
+                    <div class="button-group">
+                        <button class="main-btn project-btn"
+                        onclick="location.href='https://medium.com/python-in-plain-english/revitalizing-cyclistic-bike-share-program-an-in-depth-data-exploration-556b52512bf8'">View Project</button>
+                    </div>
+                </div>
+                <!-- Additional projects can go here, following the same structure -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="secondary-title">Contact Me</h1>             
+                
+            <div class="social-media-buttons">
+                <a href="https://github.com/OlgaKuzminichna" target="_blank" class="button github">
+                    <img src="images/github.png" alt="GitHub Icon">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://public.tableau.com/app/profile/yourusername" target="_blank" class="button tableau">
+                    <img src="images/tableau.svg" alt="Tableau Icon">
+                    <span>Tableau</span>
+                </a>
+                <a href="https://www.linkedin.com/in/olga-l-7802b324b/" target="_blank" class="button linkedin">
+                    <img src="images/linkedin.png" alt="LinkedIn Icon">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:litvinova2404@gmail.com" class="button email">
+                    <img src="images/email.png" alt="Email Icon">
+                    <span>Email</span>
+                </a>
+            </div>                    
+            <form class="contact-form">
+            <h2>Feel free to contact me for any question </h2>
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button class="submit-btn form-field" onclick="sendMail()">Send Message</button>
+            </form>
+            
+        </section>
+        <footer>
+            <p>Copyright &copy; Olga Litvinova 2024. All Rights Reserved.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
